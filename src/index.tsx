@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import reportWebVitals from './reportWebVitals'
@@ -7,13 +7,18 @@ import store from './store'
 import App from './components/App'
 import { ThemeProvider } from '@mui/material'
 import themes from './theme'
+import './i18n'
+import { BrowserRouter } from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
+
 
 root.render(
   <ThemeProvider theme={themes('LIGHT')}>
     <Provider store={store}>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </Provider>
   </ThemeProvider>,
 )

@@ -1,0 +1,8 @@
+{
+    "app": "Start",
+    "app.header.title": "Rust Modern Modern server",
+    "app.header.menu.home": "Home",
+    "app.header.menu.packets": "Pockets",
+    "app.header.menu.about": "About our server",
+    "app.header.menu.contacts": "Contacts"
+}

@@ -1,0 +1,8 @@
+{
+    "app": "Start",
+    "app.header.title": "Rust Modern Сучастний сервер",
+    "app.header.menu.home": "Головна",
+    "app.header.menu.packets": "Пакети",
+    "app.header.menu.about": "Про наш сервер",
+    "app.header.menu.contacts": "Контакти"
+}

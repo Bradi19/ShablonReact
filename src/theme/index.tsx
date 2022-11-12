@@ -1,5 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import { createTheme, responsiveFontSizes } from '@mui/material'
+import MuiMenuItem from './component/MuiMenuItem'
 import paletteDark from './paletteDark'
 import paletteLight from './paletteLight'
 import typography from './typography'
@@ -24,7 +25,7 @@ export default (colorTheme: any) => {
   })
 
   // apply components
-  //   theme = createTheme(theme, MuiContainer(theme));
+    theme = createTheme(theme, MuiMenuItem(theme));
 
   // apply responsiveFontSizes
   theme = responsiveFontSizes(theme)

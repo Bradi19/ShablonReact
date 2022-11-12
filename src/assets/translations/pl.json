@@ -1,0 +1,8 @@
+{
+    "app": "Start",
+    "app.header.title": "Rust Nowoczesna Nowoczesna usługa",
+    "app.header.menu.home": "Główny",
+    "app.header.menu.packets": "Pakiety",
+    "app.header.menu.about": "O naszym serwerze",
+    "app.header.menu.contacts": "Łączność"
+}

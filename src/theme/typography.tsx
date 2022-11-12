@@ -4,7 +4,7 @@ import { createTheme } from "@mui/material";
 export default (theme: any) => {
   return createTheme(theme, {
     typography: {
-      fontFamily: ["'Open Sans'"].join(","),
+      fontFamily: ["'Open Sans'", "'Red Rose'"].join(","),
       manage: {
         fontStyle: "normal",
         fontWeight: "600",
